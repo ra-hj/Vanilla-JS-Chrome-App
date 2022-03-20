@@ -65,10 +65,9 @@
 }
 
 #login_form input {
-    font-size: 1.5rem;
-    line-height: 2;
+    font-size: 1.25rem;
+    line-height: 1.5;
     padding: 5px;
-    margin-right: 10px;
     width: 70%;
     border-bottom: 1px solid #fff;
 }
