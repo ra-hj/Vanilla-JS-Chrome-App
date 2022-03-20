@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrap">
+        <video class="bg_video" autoplay loop muted>
+            <source src="" type="video/mp4">
+        </video>
+
+        <div class="container">
+            <section class="info">
+                <article class="weather">
+                    <span></span>
+                    <span></span>
+                </article>
+
+                <article class="date">
+                    <p class="date_today">2022.03.20 SUN</p>
+                    <h2 class="date_time">00:00:00</h2>
+                </article>
+            </section>
+
+            <section id="main">
+                <header id="header">
+                    <form id="login_form" class="hidden">
+                        <input required maxlength="20" type="text" placeholder="Write a name and Press Enter" />
+                    </form>
+
+                    <div id="login_info">
+                        <h1 class="greeting"></h1>
+                        <button class="btn_logout"></button>
+                    </div>
+                </header>
+
+                <article class="todo">
+                    <form id="todo_form">
+                        <input id="todo-input" type="text" placeholder="Write your Todo!" required>
+                        <button id="btn_add">Add</button>
+                    </form>
+                    <ul id="todo_list"></ul>
+                </article>
+
+                <footer class="quotes">
+                    <p class="quote"></p>
+                </footer>
+            </section>
+        </div>
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
