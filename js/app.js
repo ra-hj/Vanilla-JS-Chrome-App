@@ -214,7 +214,7 @@ function onGeoOk(position) {
 }
 
 function onGeoError() {
-    alert("please let us know")
+    alert("Please let us know!")
 }
 
 navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError);
