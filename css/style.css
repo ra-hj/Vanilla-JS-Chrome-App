@@ -186,7 +186,23 @@
 }
 
 #todo_list {
+    overflow-y: scroll;
     margin-top: 50px;
+    height: 396px;
+}
+
+#todo_list::-webkit-scrollbar {
+    width: 5px;
+    /* background: transparent; */
+}
+
+#todo_list::-webkit-scrollbar-thumb {
+    background: rgba(256, 256, 256, 0.4);
+    border-radius: 10px;
+}
+
+#todo_list::-webkit-scrollbar-track {
+    background: transparent;
 }
 
 #todo_list li {
