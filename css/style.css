@@ -93,6 +93,7 @@
     background: url(../img/logout.png) no-repeat;
     /* object-fit: cover; */
     background-size: cover;
+    cursor: pointer;
 }
 
 .info {
@@ -175,6 +176,7 @@
 #btn_add {
     width: 20%;
     border: 1px solid #fff;
+    cursor: pointer;
 }
 
 #btn_add:hover {
@@ -192,11 +194,16 @@
     padding: 10px 0;
     opacity: 0.6;
     transform: scale(0.98);
+    cursor: pointer;
 }
 
 #todo_list li:hover {
     opacity: 1;
     transform: scale(1);
+}
+
+#todo_list li button {
+    cursor: pointer;
 }
 
 #todo_list li span {
